@@ -1,0 +1,119 @@
+html {
+    background: url("./img/bg.svg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    font-family:monospace;
+}
+
+body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 0.5fr 1.5fr 3fr 0.5fr;
+}
+
+header{
+    justify-self: center;
+    width: 80vw;
+    height: 10vh;
+    background: #000000;
+background: -moz-linear-gradient(-45deg, #000000 0%, #1E1E1E 48%, #000000 100%);
+background: -webkit-linear-gradient(-45deg, #000000 0%, #1E1E1E 48%, #000000 100%);
+background: linear-gradient(135deg, #000000 0%, #1E1E1E 48%, #000000 100%);
+    grid-row:1/2;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin:1vw;
+    padding-bottom:2vw;
+    color: #FAF3E0;
+    border-left:1rem groove #484848;
+    border-right:1rem groove #484848;
+}
+
+nav{
+    background-color: #8b4c3993;
+    width: 25vw;
+    min-height: 4vh;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav>button{
+    background-color:#FAF3E0; 
+    font-weight: bold;
+    border-radius: 0.8rem;
+}
+
+
+#content{
+    grid-row: 3/4;
+    width: 20vh;
+    height: 20vw;
+    background-color: pink;
+}
+
+#image-galleria{
+    grid-row: 2/3;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    grid-auto-columns: 11%;
+    gap:1rem;
+    scroll-snap-type: inline mandatory;
+}
+
+#image-galleria > div {
+    scroll-snap-align: start;
+    padding:1rem;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    
+}
+
+
+.item0{
+    background: url(./img/item1.jpg);
+}
+.item1{
+    background: url(./img/item\ \(2\).jpg);
+}
+.item2{
+    background: url(./img/item\ \(3\).jpg);
+}
+.item3{
+    background: url(./img/item\ \(4\).jpg);
+}
+.item4{
+    background: url(./img/item\ \(5\).jpg);
+}
+.item5{
+    background: url(./img/item\ \(6\).jpg);
+}
+.item6{
+    background: url(./img/item\ \(7\).jpg);
+}
+.item7{
+    background: url(./img/item\ \(8\).jpg);
+}
+.item8{
+    background: url(./img/item\ \(9\).jpg);
+}
+.item9{
+    background: url(./img/item\ \(10\).jpg);
+}
+.item10{
+    background: url(./img/item\ \(11\).jpg);
+}
