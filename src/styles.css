@@ -6,6 +6,7 @@ html {
     margin:0;
     padding:0;
     font-family:monospace;
+    font-size: 16px; 
 }
 
 body{
@@ -181,7 +182,7 @@ body.about #content{
     padding-right:17vw;
     padding-left:1vw;
     line-height: 3rem;
-    font-size:min(2rem,2vw);
+    font-size:min(1.4rem,2vw);
     display: flex;
     border-radius: 2rem;
     overflow-y: hidden;
