@@ -2,7 +2,6 @@ import "./styles.css";
 import {home} from "./home.js";
 import {menu} from "./menu.js";
 import {about} from "./about.js";
-alert("runnun");
 
 const body = document.querySelector("body");
 const content =  document.querySelector("#content");
