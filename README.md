@@ -43,22 +43,22 @@ A visually rich, modular restaurant website built with Webpack, ES6 modules, and
 ## 🗂️ Project Structure
 
 restaurant-page/
-├── dist/
-│ └── index.html
-│ └── main.js
-├── src/
-│ ├── index.js
-│ ├── home.js
-│ ├── menu.js
-│ ├── about.js
-│ ├── template.html
-│ ├── styles.css
-│ └── img/
-├── assets/
-├── package.json
-├── package.lock.json
-├── webpack.config.js
-└── README.md
+├── dist/                                              
+│ └── index.html                                              
+│ └── main.js                                              
+├── src/                                                    
+│ ├── index.js                                                        
+│ ├── home.js                                                
+│ ├── menu.js                                          
+│ ├── about.js                                                  
+│ ├── template.html                                                        
+│ ├── styles.css                                                      
+│ └── img/                                                        
+├── assets/                                                            
+├── package.json                                                      
+├── package.lock.json                                                    
+├── webpack.config.js                                                                  
+└── README.md                                                          
 
 
 ---
