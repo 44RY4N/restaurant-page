@@ -1,5 +1,4 @@
 # restaurant-page
-# restaurant-page
 
 
 # 🍽️ Restaurant Page — Dynamic Single-Page App
